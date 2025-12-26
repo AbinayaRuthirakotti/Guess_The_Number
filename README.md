@@ -56,3 +56,6 @@ guess-the-number-game/
 ---
 
 Developed as a learning project.
+
+<img width="1916" height="1019" alt="image" src="https://github.com/user-attachments/assets/becc5ace-4521-4677-9c92-e2e521c83755" />
+
