@@ -1,0 +1,76 @@
+#guessinput{
+    border-radius:20px;
+    border:2px solid black;
+    padding:10px;
+    font-size:16px;
+    width:300px;
+    text-align:center;
+    margin-top:30px;
+}
+.cen{
+    text-align:center;
+}
+button{
+    border-radius:20px;
+    border:2px solid black;
+    padding:10px;
+    font-size:16px;
+    width:100px;
+    margin-top:20px;
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+    margin-right:10px;
+}
+button:hover{
+    background-color:lightgray;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+       red, yellow, lime, cyan, blue, magenta, red
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+}
+.mar{
+    margin-top:10px;
+}
+body{
+    margin:0;
+    min-height:100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+    background:
+        radial-gradient(circle at top left, #3b82f6, transparent 40%),
+        radial-gradient(circle at top right, #9333ea, transparent 40%),
+        radial-gradient(circle at bottom left, #06b6d4, transparent 40%),
+        radial-gradient(circle at bottom right, #f43f5e, transparent 40%),
+        linear-gradient(180deg, #020617, #000)
+}
+.Border{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+}

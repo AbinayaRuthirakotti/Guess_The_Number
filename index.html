@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess The Number</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="Border">
+        <div style="text-align:center;">
+        <h1 class="mar"><b>GUESS THE NUMBER</b></h1>
+        <h3 style="text-align:center;">Welcome to the Guess The Number game!</h3>
+        <div class="cen">
+            <form  onsubmit="return false;">
+                <input id="guessinput" type="number" placeholder="Enter your guess"/>
+                <br><br>
+                <button type="button" onclick="checkguess()">Guess</button>
+                <button type="button"onclick="resetgame()">Reset</button>
+            </form>
+            <p id="result"></p>
+            <p id="attempts">Attempts: <span id="attemptCount">0</span></p>
+        </div>
+        <div class="circle" id="colorCircle">
+            <div class="dot"></div>
+        </div>
+          </div>  
+        <script src="script.js"></script>
+    </body>
+</html>
